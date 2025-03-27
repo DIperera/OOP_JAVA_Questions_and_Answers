@@ -1,0 +1,17 @@
+Exercise 5 (Time: 15 minutes)  
+
+a) Create a class called EvenOddNumber.  
+
+b) It has a method called findEvenOrOdd(int i) to find whether a number is even or odd.  
+
+c) This method takes an integer argument and returns a boolean value.  
+   (Note: There is a data type called boolean in Java which can store true/false values.)  
+
+d) Then create another class Demo with the main method and create an object from the EvenOddNumber class.  
+
+e) Through the created object, call the findEvenOrOdd() method and display outputs indicating whether the numbers are even or odd.  
+
+Note:  
+- Use the Scanner class from the java.util package.  
+- Use the ternary operator for checking.  
+- Also, check how you can create two classes in one program and create objects using this sample.  
