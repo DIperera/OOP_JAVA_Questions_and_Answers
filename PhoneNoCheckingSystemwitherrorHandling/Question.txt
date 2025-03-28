@@ -1,0 +1,19 @@
+Write a program that prompts the user to enter a telephone number as a String, then 
+performs the following validation using **two different custom exception classes** as follows.  
+
+• InvalidPhoneNumberDigits, is an exception class that prints out the error 
+message “The phone number must have exactly 10 digits.”. If the number of 
+characters in the user input for the telephone is not exactly 10.  
+
+• InvalidPhoneNumberStart, is an exception class that prints out the error 
+message “The phone number must start with 0”. If the first character of the 
+user is not equal to 0. 
+
+Write another class called **DemoApp** to get the user input for the telephone number 
+and **then validate it for the above two conditions**. If the input has one or more 
+custom exception, you should have a proper try-catch statements to handle the 
+exception.
+
+Answer Explanation : 
+= Both InvalidPhoneNumberDigits and InvalidPhoneNumberStart should have constructors to pass error messages.
+= The validation logic should be handled in one method in DemoApp, wrapped inside a try-catch block.
