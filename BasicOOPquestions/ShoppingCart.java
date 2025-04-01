@@ -86,3 +86,10 @@ public class ShoppingCart { //all classes must be default(not public) other than
 	el.display();
 }
 }
+
+/*Output :
+ID is 123. Name is levis. It's price is Rs. 2300.0
+Clothing size is M. color is Red
+
+ID is 444. Name is Laptop. It's price is Rs. 5400.0
+Electronic Brand is Dell. model is Inspiron 15 */
