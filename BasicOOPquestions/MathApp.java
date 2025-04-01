@@ -60,3 +60,13 @@ public class MathApp {
      scanner.close();
  }
 }
+/*Output :
+Enter the number for multiplication table: 6
+Enter the range for multiplication table: 4
+Multiplication Table for 6:
+6 x 1 = 6
+6 x 2 = 12
+6 x 3 = 18
+6 x 4 = 24
+Enter a positive integer for factorial calculation: 5
+Factorial: 120 */
