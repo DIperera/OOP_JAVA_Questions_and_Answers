@@ -18,12 +18,16 @@ class child1 extends mainabst{
 	public void meth3() {
 		System.out.println("This is the meth 1");
 		super.meth2();//final method is called
-	}//implementation of parent's abstract methods are mandatory for all child classes.
+	}//implementation of parent's abstract methods are mandatory for all child classes other than abstract child classes.
 	child1(){
 		System.out.println("This is child1");
 		super.meth1();//static method is called
 	}
 }
+abstract class child2 extends mainabst{	
+	//we can omit implementation of parent's abstract methods if we define child classes as abstract classes
+}
+
 public class abst {
 public static void main(String[] args) {
 	//mainabst obj1 = new mainabst(); cannot create objects from abstact classes
