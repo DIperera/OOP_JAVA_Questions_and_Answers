@@ -5,19 +5,16 @@ public class Student {
 	private int id;
 	private String name;
 	private int mark;
-	
+
 	public Student() {}
-	
 	public Student(int id, String name, int mark) {
 		this.id = id;
 		this.name = name;
 		this.mark = mark;
 	}
-
 	public int getMark() {
 		return mark;
 	}
-
 	public void setMark(int mark) {
 		this.mark = mark;
 	}
@@ -25,9 +22,7 @@ public class Student {
 		return "Student [id=" + id + ", name=" + name + ", mark=" + mark + "]";
 	}
 }
-
 //we can do all the things we did to all collection frameworks otherthan priority queue
-
 public class StudentSortingApp {
 
 	public static void main(String[] args) {
